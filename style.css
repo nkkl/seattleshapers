@@ -1,0 +1,231 @@
+@import url(http://fonts.googleapis.com/css?family=Poly:400,400italic);
+
+/*
+COLORS
+#00768c
+rgb(50,50,50)
+rgb(200,200,200)
+white
+black
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url("img/fabric_white.png"); /*url("img/white_sand.png") repeat;*/
+}
+
+h1, h2, h3 {
+	font-family: helvetica, sans-serif;
+	font-weight: normal;
+}
+
+p {
+	font-family: 'Poly', serif;
+	font-weight: 400;
+}
+
+a {
+	color: #00768c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#header a:hover {
+	text-decoration: none;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	height: 145px;
+	width: 100%;
+	background: url("img/fabric_blue.png");
+}
+
+#header_wrap {
+	position: relative;
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+	background: url("img/shapers_white.png") no-repeat;
+}
+
+#header .icon {
+	float: right;
+	width: 50px;
+	height: 50px;
+	margin: 20px 10px auto auto;
+}
+
+#header .fb {
+	background: url("img/facebook_bw.png");
+}
+
+#header .fb:hover {
+	background: url("img/facebook_color.png");
+}
+
+#header .twitter {
+	background: url("img/twitter_bw.png");
+}
+
+#header .twitter:hover {
+	background: url("img/twitter_color.png");
+}
+
+#header h1 {
+	font-size: 32pt;
+	font-weight: 100;
+	margin: 30px 0 0 65px;
+	padding-top: 10px;
+	color: white;
+}
+
+#header h2 {
+	font-size: 12pt;
+	margin: 0 120px;
+	padding: 0;
+	color: white;
+}
+
+#nav {
+	position: absolute;
+	right: 0;
+	top: 145px;
+}
+
+#nav .item {
+	background: rgb(50,50,50);
+	color: rgb(200,200,200);
+	display: block-inline;
+	float: right;
+	margin: 0;
+	padding: 2px 10px;
+	font-size: 12pt;
+	font-family: helvetica, sans-serif;
+	height: 21px;
+	width: 60px;
+	text-align: center;
+	text-decoration: none; /* for IE7 compatibility */
+}
+
+#nav .item:hover {
+	color: white;
+	background: rgb(20,20,20);
+}
+
+#nav .corner {
+	width: 0;
+	height: 0;
+	float: right;
+	border-right: 25px solid rgb(50,50,50);
+	border-bottom: 25px solid transparent;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background: white; /*url("img/fabric_white.png");*/
+}
+
+#wrapper img {
+	display: block;
+}
+
+#sidebar {
+	width: 220px;
+	background: none;
+	float: right;
+	margin: 5em 10px 2em 0;
+}
+
+#sidebar .subheading {
+	font-size: 12pt;
+	font-family: helvetica, sans-serif;
+	width: 200px;
+	padding: 5px 10px;
+	background: rgb(50,50,50);
+	color: white;
+}
+
+#sidebar .item {
+	margin: 5px 10px;
+}
+
+#blog, #about {
+	padding: 0 0 0 10px;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	float: left;
+	width: 700px;
+}
+
+#blog h2, #about h2 {
+	margin: 0 auto 0 20px;
+}
+
+#blog h3, #about h3 {
+	margin: 0 auto 1em 20px;
+	font-size: 12pt;
+	color: rgb(50,50,50);
+}
+
+#blog .post {
+}
+
+#blog .postcontent, #about p {
+	margin: auto auto 2em 60px;
+}
+
+#blog .quote-text {}
+
+#blog .quote-attr {
+	font-style: italic;
+	color: rgb(50,50,50);
+	margin: -.5em auto auto 1em;
+}
+
+#about p {
+	margin-bottom: 0;
+}
+
+#about h2 {
+}
+
+#mission {
+	margin-bottom: 1em;
+}
+
+#bios {
+	margin-bottom: 1em;
+}
+
+#bios h3 {
+	margin: 1em 0 0 60px;
+}
+
+.shaper-bio p {
+	margin: 0;
+	display: none;
+}
+
+#contact {
+	margin-bottom: .5em;
+}
+
+#footer {
+	width: 960px;
+	margin: 0 auto;
+	padding: 5px 0;
+	text-align: right;
+	font-family: helvetica, sans-serif;
+	font-size: 10pt;
+}
